@@ -6,7 +6,7 @@
 
 2. This package **DOES NOT GET YOUR DATABASE DATA!**
 
-3. You can see the database data that was transmitted at 
+3. You can see the database structure information that was transmitted at 
 ````
 http://yourdomain.com/dbstructure
 ````
