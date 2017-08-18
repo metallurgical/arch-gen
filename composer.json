@@ -1,0 +1,11 @@
+{
+    "name": "fathur/laragendb",
+    "description": "Get Database structure to generate Code and relationship",
+    "authors": [
+        {
+            "name": "Fathur Rahman",
+            "email": "fathur@nazrol.tech"
+        }
+    ],
+    "require": {}
+}
