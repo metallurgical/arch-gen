@@ -15,5 +15,10 @@
             "url": "https://github.com/cyberfly/laragendb"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Package\\": "src/"
+        }
+    },
     "require": {}
 }
