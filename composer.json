@@ -4,10 +4,15 @@
     "authors": [
         {
             "name": "Fathur Rahman",
-            "email": "fathur@nazrol.tech"
+            "email": "mhd.fathur@live.com"
         }
     ],
-    "minimum-stability": "dev",
+    "keywords": [
+        "laravel",
+        "api",
+        "generator",
+        "scaffold"
+    ],
     "type": "package",
     "repositories": [
         {
@@ -15,9 +20,14 @@
             "url": "https://github.com/cyberfly/laragendb"
         }
     ],
-    "autoload": {
+    "autoload-dev": {
         "psr-4": {
-            "Fathur\\Laragendb\\": "packages/fathur/laragendb/src/"
+            "Fathur\\Laragendb\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.0"
         }
     },
     "require": {}
