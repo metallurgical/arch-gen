@@ -1,6 +1,6 @@
 # laragendb
 
-##Introduction
+## Introduction
 
 1. This Laravel 5 package will get all of your database **tables and columns** information in order to generate proper database relationship and migration
 
@@ -11,7 +11,7 @@
 http://yourdomain.com/dbstructure
 ````
 
-##How to install
+## How to install
 
 1. At terminal, run this command : 
 
@@ -19,7 +19,7 @@ http://yourdomain.com/dbstructure
 composer require fathur/laragendb
 ```
 
-2. Open Laravel config/app.php, and at the providers array
+2. Open Laravel config/app.php, add this line at the providers array
 
 ```
 'providers' => [
@@ -32,4 +32,10 @@ composer require fathur/laragendb
 
 ````
 http://yourdomain.com/dbstructure
+````
+
+3. If the package not yet auto loaded, in your terminal, run 
+
+````
+composer dump-autoload
 ````
