@@ -34,7 +34,7 @@ composer require fathur/laragendb
 http://yourdomain.com/dbstructure
 ````
 
-3. If the package not yet auto loaded, in your terminal, run 
+4. If the package not yet auto loaded, in your terminal, run 
 
 ````
 composer dump-autoload
