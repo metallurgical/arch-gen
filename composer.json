@@ -1,28 +1,22 @@
 {
-    "name": "fathur/laragendb",
-    "description": "Get Database structure to generate Code and relationship",
+    "name": "arch/gen",
+    "description": "db",
     "authors": [
         {
-            "name": "Fathur Rahman",
-            "email": "mhd.fathur@live.com"
+            "name": "Emi",
+            "email": "norlihazmey89@gmail.com"
         }
-    ],
-    "keywords": [
-        "laravel",
-        "api",
-        "generator",
-        "scaffold"
     ],
     "type": "package",
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/cyberfly/laragendb"
+            "url": "https://github.com/metallurgical/arch-gen"
         }
     ],
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "Fathur\\Laragendb\\": "src/"
+            "Arch\\Gen\\": "src/"
         }
     },
     "config": {

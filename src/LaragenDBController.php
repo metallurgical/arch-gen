@@ -1,6 +1,6 @@
 <?php
 
-namespace Fathur\Laragendb;
+namespace Arch\Gen;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fathur\Laragendb;
+namespace Arch\Gen;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class LaragenDBServiceProvider extends ServiceProvider
     public function register()
     {
         // register our controller
-        $this->app->make('Fathur\Laragendb\LaragenDBController');
+        $this->app->make('Arch\Gen\LaragenDBController');
     }
 }

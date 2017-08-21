@@ -1,6 +1,6 @@
 <?php
 
-Route::get('dbstructure', 'Fathur\Laragendb\LaragenDBController@index');
+Route::get('dbstructure', 'Arch\Gen\LaragenDBController@index');
 
 
 
